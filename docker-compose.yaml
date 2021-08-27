@@ -27,4 +27,4 @@ services:
       - BROWSER=chrome
       - MODULE=search-module.xml
     volumes:
-      - ./search-result:/usr/share/udemy/test-output
+      - ./output/search-result:/usr/share/udemy/test-output
